@@ -1,0 +1,35 @@
+import React from 'react'
+import Home from './Home'
+import { BrowserRouter as Router , Routes , Route, Link } from 'react-router-dom'
+import About from './About'
+import Product from './Product'
+import Products from './Products'
+import Error from './Error'
+import './style.css'
+const App = () => {
+
+  return (
+  
+    <Router>
+      <ul className='navbar' >
+      <li> <Link to="/" >Home</Link>{' '} </li>
+       <li><Link to="/about" >About</Link>{' '} </li>
+      <li> <Link to="/products" >Products</Link>{' '}{' '} </li>
+     <li>  <Link to="/product" >Product</Link>{' '} </li>
+      <li> <Link to="*" >Error</Link> </li>
+</ul>
+
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/about" element={<About/>}/>
+        <Route path="/products" element={<Products/>}/>
+        <Route path="/product" element={<Product/>}/>
+        <Route path ="*" element = {<Error/>}/>
+    </Routes>
+    </Router>
+      
+
+  )
+}
+
+export default App

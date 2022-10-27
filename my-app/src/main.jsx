@@ -1,14 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-// import './index.css'
-// import Count from './Count'
-// import List from './List'
-import Apps from './TodoList/Apps'
+import 'semantic-ui-css/semantic.min.css'
+import App from './routers/App'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
 
-    <Apps />
+   <App />
    
 
 

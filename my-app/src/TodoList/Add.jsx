@@ -78,7 +78,6 @@ handleSubmit(e){
 
      </form>
 
-<h2>hello this is insha</h2>
       </div>
 
 

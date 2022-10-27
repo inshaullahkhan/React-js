@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+
+.head{
+    /* background-color: black; */
+    display: flex;
+     text-align: center;
+     justify-content: center;
+     height: 60px;
+    /* justify-content:space-evenly; */
+    /* padding-left: 6rem; */
+}
+.nav1{
+     
+    padding-left: 8rem;
+}
+
+li{
+    padding-top: 1.5rem;
+    color: white;
+    list-style: none;
+    padding-left: 4rem;
+}
+
+.navbar{
+
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+}
