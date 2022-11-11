@@ -18,7 +18,9 @@ function Intro() {
 
         <button className="button i-button">Hire Me</button>
         <div className="i-icons">
-        <img src="./image/" alt="boy" />
+        <img src="./images/github.png" alt="" />
+        <img src="./images/instagram.png" alt="" />
+        <img src="./images/linkedin.png" alt="" />
 
         
         </div>
@@ -26,7 +28,17 @@ function Intro() {
 
         <div className="i-right">
 
-         <h1>hello this is me</h1>
+          <img src="./images/vector1.png" alt="" />
+          <img src="./images/vector2.png" alt="" />
+          <img src="./images/boy.png" alt="" />
+    
+
+
+
+          <div className="floating">
+            <h1>  Web Developer</h1>
+            <img src="./images/crown.png" alt="" />
+          </div>
 
         </div>
 
