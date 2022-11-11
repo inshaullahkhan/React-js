@@ -1,0 +1,52 @@
+.navbar{
+
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    /* background-color: gray; */
+
+}
+.nav-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 1rem 3.5rem;
+    /* justify-content: space-around; */
+    gap: 2rem;
+}
+.logo
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-right{
+
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+
+}
+.lis{
+    flex: 10;
+
+
+
+}
+.nav-right ul{
+    display: flex;
+    gap: 2rem;
+    margin-right: 8rem;
+}
+.nav-right ul li:hover{
+
+    color: var(--orange);
+    cursor: pointer;
+    
+
+}
+.button{
+    margin: 1rem 2.3rem;
+}

@@ -1,9 +1,11 @@
 import React from 'react'
+import Navbar from './Components/Navbar'
+import './App.css'
 
 const App = () => {
   return (
     <div>
-       I Welcome to the new Portflio website
+    <Navbar/>
 
     </div>
   )
