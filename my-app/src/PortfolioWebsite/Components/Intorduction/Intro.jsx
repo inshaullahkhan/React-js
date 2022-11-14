@@ -1,6 +1,13 @@
 import React from 'react'
 import './Intro.css'
+import Crown from '/images/crown.png'
+import Thumb from '/images/thumbup.png'
+import Imogi from '/images/glassesimoji.png'
+import Small from '../SmallSec/Small'
+// import Small from '../SmallSec/Small'
+// import './Small.css'
 
+// import Crown from '../images/crown.png'
 function Intro() {
   return (
     <div>
@@ -25,26 +32,29 @@ function Intro() {
         
         </div>
         </div>
+        
 
         <div className="i-right">
 
           <img src="./images/vector1.png" alt="" />
           <img src="./images/vector2.png" alt="" />
           <img src="./images/boy.png" alt="" />
-    
+          <img src={Imogi} alt="" />
+           <div style={{left: '55%'}}>
+           <Small image={Crown} text1= 'Web' text2 = 'Developer'/>
+     </div>
+     <div style={{top:'25rem', marginLeft:'-1rem'}}>
+           <Small image={Thumb} text1= 'Best' text2 = 'Design Award'/>
+     </div>
+     <div className='blur' style={{background:'rgb(238 210 255)'}} >
+           
+     </div>
+     <div className="blur2" style={{background:'#C1F5FF'}}>
 
-
-
-          <div className="floating">
-            <h1>  Web Developer</h1>
-            <img src="./images/crown.png" alt="" />
-          </div>
-
+     </div>
         </div>
-
+        
         </div>
-
-
     </div>
   )
 }

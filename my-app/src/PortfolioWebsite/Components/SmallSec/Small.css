@@ -1,0 +1,27 @@
+.small{
+
+    justify-content: space-around;
+    background: white;
+    padding-left: 3rem;
+    flex: 1;
+    display: flex;
+    /* padding: 34rem;s */
+    /* background: white; */
+    box-shadow: var(--boxShadow);
+    border-radius: 17px;
+    align-items: center;
+    padding: 0px 28px 0px 0px;
+    height: 8rem;
+    width: 22rem;
+    font-size: 2rem;
+    padding-left: 7rem;
+    font-family: sans-serif;
+    line-height: 1.2;
+
+}
+
+.small>img{
+    transform: scale(0.4);
+    padding-left: 3rem;
+}
+
